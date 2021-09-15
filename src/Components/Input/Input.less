@@ -1,0 +1,32 @@
+@inputRow: #f5f1ee;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.input {
+
+  &_field {
+    bottom: 0;
+    display: block;
+    border: 0;
+    padding: 1em;
+    border-radius: 0.4em;
+    width: 100%;
+    outline: none;
+    color: #4b4b4b;
+    direction: rtl;
+  }
+
+  &_row {
+    background-color: @inputRow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5em 2em;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+  }
+}
